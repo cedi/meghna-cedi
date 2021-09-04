@@ -44,7 +44,8 @@ jQuery(function ($) {
 		var Shuffle = window.Shuffle;
 		var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
 			itemSelector: '.shuffle-item',
-			buffer: 1
+			buffer: 1,
+			speed: 125,
 		});
 
 		jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
