@@ -410,6 +410,7 @@ a:hover {
   background-color: #1d2024;
   width: 100%;
   margin-bottom: 0;
+  height: 6vh;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,
@@ -436,7 +437,7 @@ a:hover {
 
 .hero-area {
   background-size: cover;
-  height: 100vh;
+  height: 94vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -456,6 +457,9 @@ a:hover {
 .hero-area .block {
   text-align: center;
   z-index: 99;
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 10px;
 }
 
 .hero-area .block .video-button {
